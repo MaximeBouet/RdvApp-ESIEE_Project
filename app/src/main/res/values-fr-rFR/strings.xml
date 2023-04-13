@@ -60,4 +60,6 @@
     <string name="Red">Rouge</string>
     <string name="Yellow">Jaune</string>
     <string name="See">Voir</string>
+    <string name="EmptyRdvList">Aucun rendez-vous prévu</string>
+    <string name="emptyContactList">Liste de contact vide</string>
 </resources>
