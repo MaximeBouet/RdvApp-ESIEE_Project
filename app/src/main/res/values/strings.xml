@@ -20,6 +20,7 @@
     <string name="PhoneNumber">PhoneNumber</string>
     <string name="State">State</string>
     <string name="See">See</string>
+    <string name="EmptyRdvList">No appointment scheduled</string>
 
     <!-- Strings used on AddRdv Activity-->
     <string name="AddDescription">Write the description of this appointment :</string>
@@ -56,6 +57,7 @@
     <string name="chooseContact">Choose a contact</string>
     <string name="txtcontactName">Contact name</string>
     <string name="txtContactNumber">Contact number</string>
+    <string name="emptyContactList">Your contact list is empty</string>
 
     <!-- Strings used on Settings Activity -->
     <string name="settings">Settings</string>
