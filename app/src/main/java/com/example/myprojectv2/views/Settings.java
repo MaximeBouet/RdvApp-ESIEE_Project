@@ -23,7 +23,7 @@ import com.example.myprojectv2.utils.Res;
  * Allow the user to choose the colo of the background,
  * Allow the user to choose if he want a music or not.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class Settings extends AppCompatActivity{
     private Intent intent;

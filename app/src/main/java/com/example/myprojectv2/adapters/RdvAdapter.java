@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * This class represents an ArrayAdapter for the Rdv objects.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class RdvAdapter extends ArrayAdapter<Rdv>
 {

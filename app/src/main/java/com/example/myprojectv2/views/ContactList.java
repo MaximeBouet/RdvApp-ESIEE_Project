@@ -24,7 +24,7 @@ import com.example.myprojectv2.utils.Res;
  * When a contact is clicked, it launches an activity to create a new appointment
  * with the selected contact's name and phone number.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class ContactList extends ListActivity{
     private ListView listView;

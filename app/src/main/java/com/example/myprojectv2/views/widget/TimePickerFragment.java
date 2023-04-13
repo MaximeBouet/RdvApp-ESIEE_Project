@@ -10,7 +10,7 @@ import androidx.fragment.app.DialogFragment;
  * A DialogFragment used to display a time picker dialog that allows the user to select a time.
  * It implements the TimePickerDialog.OnTimeSetListener interface which allows it to return the selected time to the calling activity.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class TimePickerFragment extends DialogFragment {
     private int hours, minutes;

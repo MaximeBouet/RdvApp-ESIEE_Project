@@ -14,7 +14,7 @@ import com.example.myprojectv2.databinding.FragmentFirstBinding;
 /**
  * A fragment that represents the first screen of an app.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class FirstFragment extends Fragment {
 

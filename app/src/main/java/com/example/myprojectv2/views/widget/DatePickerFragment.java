@@ -9,7 +9,7 @@ import androidx.fragment.app.DialogFragment;
 /**
  * A dialog fragment that displays a date picker dialog and returns the selected date.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class DatePickerFragment extends DialogFragment {
     private int year, month, day;

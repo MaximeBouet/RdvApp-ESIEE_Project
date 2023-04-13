@@ -27,7 +27,7 @@ import com.example.myprojectv2.utils.Res;
  * state of the Rdv. Also, this class allows the user to edit, delete, open the location in the
  * maps, call, or share the Rdv with someone.
  *
- * @author Maxime Bouet - Sebastien Bois
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class Details extends AppCompatActivity implements View.OnClickListener{
     private DatabaseHelper db;

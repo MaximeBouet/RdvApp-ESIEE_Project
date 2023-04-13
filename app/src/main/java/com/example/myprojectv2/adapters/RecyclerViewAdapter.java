@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * RecyclerViewAdapter is an adapter for a RecyclerView that displays a list of Rdv objects.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
     private final int recyclerItemRes;

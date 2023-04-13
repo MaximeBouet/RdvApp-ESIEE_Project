@@ -48,7 +48,7 @@ import java.util.ArrayList;
  * It displays a list of appointments and provides an interface to add, remove and modify appointments.
  * The class also provides access to the settings activity and the details activity.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;

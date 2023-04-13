@@ -3,7 +3,7 @@ package com.example.myprojectv2.adapters;
 /**
  * An interface that provides a method for handling item click events in a RecyclerView.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public interface RecyclerViewInterface {
     /**

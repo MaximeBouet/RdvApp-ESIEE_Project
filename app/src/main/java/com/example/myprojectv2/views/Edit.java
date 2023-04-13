@@ -40,7 +40,7 @@ import java.util.Locale;
  * name, description, address, phone number, date, and time.
  * The class extends AppCompatActivity and implements the OnClickListener interface.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class Edit extends AppCompatActivity implements View.OnClickListener{
     private EditText etDescription, etAddress, etPhoneNumber, etName,etDate,etTime;

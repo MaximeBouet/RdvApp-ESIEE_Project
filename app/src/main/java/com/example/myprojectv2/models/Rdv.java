@@ -6,8 +6,9 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- The Rdv class represents an appointment object, with various properties such as ID, description, date, time, name, address,
- phone number and state. It can be used to store and manipulate appointment data.
+ * The Rdv class represents an appointment object, with various properties such as ID, description, date, time, name, address,
+ * phone number and state. It can be used to store and manipulate appointment data.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class Rdv implements Serializable {
     public static ArrayList<Rdv> rdvArrayList = new ArrayList<>();

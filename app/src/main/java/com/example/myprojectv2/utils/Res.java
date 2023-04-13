@@ -8,7 +8,7 @@ import android.os.Build;
  * This class extends the Resources class and provides custom colors for some specific color IDs.
  * For all other color IDs, it calls the super method of the parent class.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class Res extends Resources{
     /**

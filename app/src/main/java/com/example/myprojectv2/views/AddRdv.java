@@ -38,7 +38,7 @@ import java.util.Locale;
 /**
  * Activity for adding a new RDV (Rendez-vous).
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class AddRdv extends AppCompatActivity implements View.OnClickListener{
     private EditText etDescription, etAddress, etPhoneNumber, etName;

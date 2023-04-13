@@ -15,7 +15,7 @@ import java.util.ArrayList;
 /**
  * DatabaseHelper class is responsible for managing the SQLite database for the RDV application.
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
   */
 public class DatabaseHelper extends SQLiteOpenHelper {
     private SQLiteDatabase database;

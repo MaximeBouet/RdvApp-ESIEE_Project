@@ -15,7 +15,7 @@ import java.util.ServiceConfigurationError;
 /**
  * BackgroundMusic is a service class for playing background music in the application
  *
- * @author Maxime Bouet, Sebastien Bois.
+ * @author Maxime Bouet, Sebastien Bois, Paul Monsigny.
  */
 public class BackgroundMusic extends Service {
     /*
