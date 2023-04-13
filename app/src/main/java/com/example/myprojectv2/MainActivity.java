@@ -28,6 +28,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.myprojectv2.adapters.RecyclerViewAdapter;
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
     static int NOTIFICATION_ID = 100;
     static int REQUEST_CODE = 200;
     static String CHANNEL_ID = "channel_01";
+    private TextView emptyView;
 
     /** Description
      * This method is launched as soon as the user arrives at the activity.
@@ -89,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
         rdv = DB.getRdvs();
 
         //Display the list of RDV
+        emptyView = findViewById(R.id.tvEmptyRdv);
         recyclerView = findViewById(R.id.rvRDV);
         recyclerView.setLayoutManager(
                 new LinearLayoutManager(this)
@@ -115,6 +118,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        if (rdv.isEmpty()){
+            recyclerView.setVisibility(View.GONE);
+            emptyView.setVisibility(View.VISIBLE);
+        }else {
+            recyclerView.setVisibility(View.VISIBLE);
+            emptyView.setVisibility(View.GONE);
+        }
 
         //Allow to detect if before, we were in an other activity containing an id (from AddRdv class)
         intent = getIntent();
