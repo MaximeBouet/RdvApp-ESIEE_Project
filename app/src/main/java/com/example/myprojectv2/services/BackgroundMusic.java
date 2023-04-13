@@ -59,6 +59,7 @@ public class BackgroundMusic extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.d("mylog", "Starting playing");
         mediaPlayer = MediaPlayer.create(this, R.raw.backgroundsound);
+        mediaPlayer.setLooping(true);
         mediaPlayer.start();
         return super.onStartCommand(intent, flags, startId);
     }
